@@ -32,7 +32,8 @@ Turn off `sql_mode=only_full_group_by` option for mysql:
 
     SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
-Then run the each script in bash to get the exported data in csv format.
+Run each script in bash to get the exported data in csv format.
+
 Then you can:
 * Use Odoo import option to import the data in Odoo. Good luck with that :D
-* Use This repository (link will be available soon) to import the data in Odoo using API.
+* Use [This repository](https://github.com/mehrdadbahri/import_woocommerce_data_into_odoo) to import the data in Odoo using API.
