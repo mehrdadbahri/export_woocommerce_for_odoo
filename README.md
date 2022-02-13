@@ -37,3 +37,5 @@ Run each script in bash to get the exported data in csv format.
 Then you can:
 * Use Odoo import option to import the data in Odoo. Good luck with that :D
 * Use [This repository](https://github.com/mehrdadbahri/import_woocommerce_data_into_odoo) to import the data in Odoo using API.
+
+Read in more details in [this article](https://medium.com/@mehrdadbahri71/migrate-from-woo-commerce-to-odoo-f4a8d267302e).
